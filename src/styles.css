@@ -1,0 +1,94 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+body {
+  margin: 0px;
+}
+.footer {
+  background-color: #00ffcc;
+  position: absolute;
+  bottom: 0px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.ftLength {
+  width: 100px;
+  height: 50px;
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  background-color: #00ffcc;
+  height: 50px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.sort {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 8px 0px;
+  margin: 10px;
+}
+.sort span {
+  padding: 8px;
+}
+.sortIn {
+  border-right: 1px solid;
+  position: relative;
+}
+
+.bodyDiv {
+  position: relative;
+  height: 100vh;
+  width: 430px;
+  background-color: black;
+  overflow: hidden;
+}
+.content {
+  background-color: black;
+  height: 62vh;
+  overflow-y: auto;
+}
+.contenterror {
+  color: red;
+  margin-left: 10px;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  height: 30px;
+  color: white;
+}
+
+.circle-icon.MuiSvgIcon-root {
+  width: 8px;
+  height: 8px;
+}
+.inpComp {
+  padding: 10px;
+}
+.notchedOutline {
+  border-width: 1px;
+  border-color: #00ffcc !important;
+}
+.inputLabel {
+  color: #3e68a8 !important;
+}
+.checkBox {
+  color: black;
+  border: 2px solid red;
+}
